@@ -11,6 +11,8 @@ public class SumTest {
         for (int i = 0; i < 10 ; i++) {
             count = count++;//有i=i++是先将i加1，再将i的原始值赋值给i，所以如果i的值是不会改变的。
         }
+
+
         return count;
     }
 

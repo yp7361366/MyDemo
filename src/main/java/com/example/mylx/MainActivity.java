@@ -73,7 +73,7 @@ public class MainActivity extends Activity {
         adapter.setOnItemClickListener(new OnRecyclerViewItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
-                Toast.makeText(MainActivity.this,"第" + position + "item",Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this,"第" + position + "item",Toast.LENGTH_SHORT).show();
 
             }
         });
