@@ -30,6 +30,6 @@ public class TypeThreeHolder extends BaseHolder {
         mUserName.setText(users.name);
         mUserImage.setBackgroundResource(users.imageUrl);
         mUserSize.setText(users.size);
-        mTitleImage.setBackgroundResource(users.imagedownUrl);
+//        mTitleImage.setBackgroundResource(users.imagedownUrl);
     }
 }
